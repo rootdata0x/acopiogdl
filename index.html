@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-MX">
 
   <head>
 
@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio
+              <a class="nav-link" href="#">Centros de Acopio
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -56,25 +56,54 @@
       <a class="list-group-item" href="https://www.facebook.com/PCyBomGDL/"><i class="fa fa-address-book" aria-hidden="true"></i> Dirección de Protección Civil y Bomberos</a>
           </div>
           <br>
+          <div id="fb-root"></div>
+          <center><script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+          <div class="fb-share-button" data-href="https://rootdata0x.github.io/acopiogdl/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://rootdata0x.github.io/acopiogdl/&amp;src=sdkpreparse">Compartir Pagina</a></div></center>
           <hr>
-            <a class="twitter-timeline"  href="https://twitter.com/search?q=%23Acopio%20%23Guadalajara" data-widget-id="910701349645336576">Tweets sobre #Acopio #Guadalajara</a>
+          <a class="twitter-timeline"  href="https://twitter.com/search?q=%23Acopio%20%23Guadalajara" data-widget-id="910701349645336576">Tweets sobre #Acopio #Guadalajara</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></a>
             <hr>
             <center><h3> Brigada Topos </h3></center>
             <center><h5> Donaciones </h5></center>
             <a><img class="card-img-top" src="https://pbs.twimg.com/profile_images/906020949656350720/BcUfdjjz_400x400.jpg" alt=""></a>
              <div class="card-footer">
-                <small class="text-muted"><strong></i> Santander 92000709294<br>CLABE 014180920007092942.</small></strong>
-                </div>
+                <small class="text-muted"></i> 
+              <strong>Banco:</strong> Santander
+              <br><strong>Cuenta:</strong> 92-00070929-4
+              <br><strong>CLABE:</strong> 014180920007092942
+              <br><strong>Referencia:</strong> Brigada de Rescate Topos Tlaltelolco, A.C.
+              <br><strong>Paypal:</strong> donativos@brigada-rescate-topos.org</small>
+              </div>
         </div>
         <!-- /.col-lg-3 -->
-
         <div class="col-lg-9">
           <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
             <h3> Centros de Acopio Disponibles </h3>
+            <script language="JavaScript" type="text/JavaScript" class="fecha">
+            var LaFecha=new Date();
+            var Mes=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+            var diasem=new Array('domingo','lunes','martes','miercoles','jueves','viernes','sabado');
+            var diasemana=LaFecha.getDay();
+            var FechaCompleta="";
+            var NumeroDeMes="";
+            var hora = LaFecha.getHours() 
+            var minuto = LaFecha.getMinutes() 
+            var segundo = LaFecha.getSeconds() 
+            NumeroDeMes=LaFecha.getMonth();
+            FechaCompleta=" <strong>Ingresaste el dia:</strong> " +LaFecha.getDate()+" de "+Mes[NumeroDeMes]+" de "+LaFecha.getFullYear()+" <strong> a las </strong> "+hora+":"+minuto+":"+segundo;
+            document.write (FechaCompleta);
+            </script>
           <iframe src="https://www.google.com/maps/d/embed?mid=1jdT7QnE5vAlz7uUqoDUZAdQvFcs" width="820" height="480"></iframe>
           </div>
-
+          <div class="alert alert-info">
+            <strong>La información</strong> puede estar sujeta a cambios.
+          </div>
           <div class="row">
 
             <div class="col-lg-4 col-md-6 mb-4">
@@ -87,8 +116,8 @@
                   <h5>De 08:00 a 18:00</h5>
                   <br>
                   <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
-                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicinas</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
                   <a href="https://www.facebook.com/dif.guadalajara/photos/a.535075856601099.1073741828.534690453306306/1298066260302051/?type=3&theater">Mas información</a>
                 </div>
                 <div class="card-footer">
@@ -106,8 +135,8 @@
                   </h4>
                   <h5>De 08:00 a 21:00</h5>
                   <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
-                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicinas</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
                   <a href="https://www.facebook.com/trompomagico/photos/a.876396879123044.1073742095.227458304016908/1421952374567489/?type=3&theater">Mas información</a>
                 </div>
                 <div class="card-footer">
@@ -125,8 +154,8 @@
                   </h4>
                   <h5>24 Horas</h5>
                   <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
-                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicinas</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
                    <a href="https://www.facebook.com/TelevisaGDL/photos/a.364496829281.191924.70340169281/10155723129124282/?type=3&theater">Mas información</a>
                 </div>
                 <div class="card-footer">
@@ -163,8 +192,8 @@
                   </h4>
                   <h5>24 Horas</h5>
                    <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
-                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicinas</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
                    <a href="https://www.facebook.com/WRadioGdl/photos/a.388533895683.175043.89169175683/10154724499775684/?type=3&theater">Mas información</a>
                 </div>
                 <div class="card-footer">
@@ -183,7 +212,7 @@
                   </h4>
                   <h5>De 07:00 a 19:00</h5>
                   <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
                    <a href="https://www.facebook.com/bosquecolomos/photos/a.378961928855000.93809.111130538971475/1463891140362068/?type=3&theater">Mas información</a>
                 </div>
                 <div class="card-footer">
@@ -201,8 +230,8 @@
                   </h4>
                   <h5>24 Horas</h5>
                     <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
-                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicinas</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
                     <i class="fa fa-users" aria-hidden="true"><strong><u> Voluntarios</strong></u></i></p>
                     <a href="https://www.facebook.com/CruzRojaGDL/photos/a.310688032299397.81887.214302491937952/1652445001457020/?type=3&theater">Mas información</a>
                 </div>
@@ -221,8 +250,8 @@
                   </h4>
                   <h5>Habilito espacios en planteles</h5>
                     <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
-                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicinas</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
                     <a href="https://www.facebook.com/udg.mx/photos/a.228812161541.147117.42603376541/10155550502061542/?type=3&theater">Mas información</a>
                 </div>
                 <div class="card-footer">
@@ -239,8 +268,8 @@
                   </h4>
                   <h5>Hasta las 18:00 (Estadio chivas)</h5>
                     <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
-                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicinas</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
                     <a href="https://www.facebook.com/Chivas/photos/pb.119089757137.-2207520000.1505961777./10155747884612138/?type=3&theater">Mas información</a>
                 </div>
                 <div class="card-footer">
@@ -255,12 +284,12 @@
                 <a><img class="card-img-top" src="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.0-9/18274742_10155357168118826_7251888843615747180_n.jpg?oh=52ec34b69b6dc613ea13db55ad19615b&oe=5A4FBF38" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="">Atlas FC</a>
+                    <a href="">Atlas FC (Estadio Jalisco)</a>
                   </h4>
                   <h5>De 10:00 a 21:00 </h5>
                     <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
-                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicinas</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
                     <i class="fa fa-truck" aria-hidden="true"><strong><u> Ofrece Transporte</strong></u></i></p>
                     <a href="https://www.facebook.com/AtlasFC/photos/a.10152220075253826.1073742108.85541918825/10155823647843826/?type=3&theater">Mas información</a>
                 </div>
@@ -279,8 +308,8 @@
                   </h4>
                   <h5>De 08:00 a 20:00</h5>
                     <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
-                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicinas</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
                     <a href="https://www.facebook.com/lasantaguadalajara/photos/a.653891754623414.1073741829.646863348659588/1674244125921500/?type=3&theater">Mas información</a>
                 </div>
                 <div class="card-footer">
@@ -297,12 +326,133 @@
                   </h4>
                   <h5>De 11:30 a 20:00</h5>
                     <p class="card-text"> ¿Que están recibiendo? </p>
-                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos</strong></u></i></p>
-                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicinas</strong></u></i></p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
                     <a href="https://www.facebook.com/MelBrosCo/photos/a.203909303126629.1073741828.203904286460464/734357446748476/?type=3&theater">Mas información</a>
                 </div>
                 <div class="card-footer">
             <small class="text-muted"><strong><i class="fa fa-phone"></i> Telefonos:  33-20-16-14-88</small></strong>
+                </div>
+              </div>
+            </div>
+
+ <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a><img class="card-img-top" src="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.0-9/21317751_10155639127133766_8567510781395904655_n.png?oh=4b9eb3c56e4ad9e9168d1673d0688e15&oe=5A5851E0" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="">Univa Guadalajara</a>
+                  </h4>
+                  <h5>Habilito espacios en planteles</h5>
+                  <br>
+                  <p class="card-text"> ¿Que están recibiendo? </p>
+                    <i class="fa fa-bath" aria-hidden="true"><strong><u> Articulos de Aseo Personal</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
+                  <a href="https://www.facebook.com/photo.php?fbid=10211953126215013&set=pcb.10211953126935031&type=3&theater">Mas información</a>
+                </div>
+                <div class="card-footer">
+                <small class="text-muted"><strong><i class="fa fa-phone"></i>Telefono: 33-31-34-08-00</small></strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a><img class="card-img-top" src="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.0-9/10612717_1494381444214320_1093389655333971251_n.png?oh=aced3e8b4e3c914fa202a2d2475a7041&oe=5A40A6EA" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="">El Rey Mezcaleria </a>
+                  </h4>
+                  <h5>De 09:00 a 14:00 y 16:00 a 21:00</h5>
+                  <p class="card-text"> ¿Que están recibiendo? </p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-bath" aria-hidden="true"><strong><u> Articulos de Aseo Personal</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
+                  <a href="https://www.facebook.com/trompomagico/photos/a.876396879123044.1073742095.227458304016908/1421952374567489/?type=3&theater">Mas información</a>
+                </div>
+                <div class="card-footer">
+                <small class="text-muted"><strong><i class="fa fa-phone"></i> Telefono: 33-39-73-09-94</small></strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a><img class="card-img-top" src="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.0-9/13466398_316184988713030_7442712998362030817_n.png?oh=247c58153a0c8a3344565959f27e14b1&oe=5A4B6170" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="">Fábrica de Diseño Mexicano</a>
+                  </h4>
+                  <h5>De 09:00 a 14:00 y 16:00 a 21:00</h5>
+                  <p class="card-text"> ¿Que están recibiendo? </p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-bath" aria-hidden="true"><strong><u> Articulos de Aseo Personal</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
+                   <a href="https://www.facebook.com/fabricadedisenomx/photos/a.323973204600875.1073741829.169558253375705/547772415554285/?type=3&theater">Mas información</a>
+                </div>
+                <div class="card-footer">
+              <small class="text-muted"><strong><i class="fa fa-phone"></i> Telefono: 33-20-00-84-58</small></strong>
+                </div>
+              </div>
+            </div>
+
+<div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a><img class="card-img-top" src="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.0-9/12246913_1000819029979213_7292523833326450180_n.jpg?oh=7b9d56b72992421cf5429fefdc937df0&oe=5A4522DA" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="">Congreso del Estado de Jalisco</a>
+                  </h4>
+                  <h5>De 08:00 a 21:00</h5>
+                  <p class="card-text"> ¿Que están recibiendo? </p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-bath" aria-hidden="true"><strong><u> Articulos de Aseo Personal</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
+                    <i class="fa fa-wrench" aria-hidden="true"><strong><u> Herramientas</strong></u></i></p>
+                  <a href="https://www.facebook.com/legislativojal/photos/a.602989139762206.1073742286.162983453762779/1584507738277003/?type=3&theater">Mas información</a>
+                </div>
+                <div class="card-footer">
+                <small class="text-muted"><strong><i class="fa fa-phone"></i> Telefono: 33-36-79-15-15</small></strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a><img class="card-img-top" src="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.0-9/18835554_1711187145575571_5133850912111531077_n.jpg?oh=849ee4370a4305891749a60d83cac3bf&oe=5A59AA70" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="">Proulex</a>
+                  </h4>
+                  <h5>De 07:00 a 19:00</h5>
+                  <p class="card-text"> ¿Que están recibiendo? </p>
+                    <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-bath" aria-hidden="true"><strong><u> Articulos de Aseo Personal</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
+                   <a href="https://www.facebook.com/ProulexCentrodeIdiomas/photos/a.1263941230300167.1073741828.1245088418852115/1821821864512098/?type=3&theater">Mas información</a>
+                </div>
+                <div class="card-footer">
+              <small class="text-muted"><strong><i class="fa fa-phone"></i> Telefono: 33-36-16-68-81</small></strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a><img class="card-img-top" src="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.0-9/11110981_874509139286966_1286153027855649683_n.png?oh=432588d19ba8e7f2ce9fd9ac48ac5d5f&oe=5A46ED50" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="">Resonante Radio</a>
+                  </h4>
+                  <h5>De 10:00 a 21:00</h5>
+                  <p class="card-text"> ¿Que están recibiendo? </p>
+                  <i class="fa fa-cutlery" aria-hidden="true"><strong><u> Alimentos no perecederos</strong></u></i></p>
+                    <i class="fa fa-bath" aria-hidden="true"><strong><u> Articulos de Aseo Personal</strong></u></i></p>
+                    <i class="fa fa-medkit" aria-hidden="true"><strong><u> Medicamentos</strong></u></i></p>
+                   <a href="https://www.facebook.com/ResonanteRadio/photos/a.821050064632874.1073741826.821050024632878/1689557451115460/?type=3&theater">Mas información</a>
+                </div>
+                <div class="card-footer">
+                <small class="text-muted"><strong><i class="fa fa-phone"></i> Telefono: No disponible</small></strong>
                 </div>
               </div>
             </div>
