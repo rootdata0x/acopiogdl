@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Repositorio de Información referente a los Centros de Acopio de la Ciudad de Guadalajara</title>
+    <title>Repositorio con Información referente a los Centros de Acopio de Guadalajara y Zapopan</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,8 +33,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Centros de Acopio
-                <span class="sr-only">(current)</span>
+              <a class="nav-link" href="index.html">Centros de Acopio
+                <span class="sr-only"></span>
+              </a>
+            </li>
+                <li class="nav-item">
+              <a class="nav-link" href="mapa.html">Mapa interactivo
+                <span class="sr-only"></span>
+              </a>
+            </li>
+                </li>
+                <li class="nav-item">
+              <a class="nav-link" href="https://github.com/rootdata0x/acopiogdl">¿Quieres contribuir? <i class="fa white fa-github "></i>
+                <span class="sr-only"></span>
               </a>
             </li>
           </ul>
@@ -49,7 +60,7 @@
 
         <div class="col-lg-3">
 
-          <center><h1 class="my-4">Contacto</h1></center>
+          <center><h1 class="my-4">Contactos</h1></center>
           <div class="list-group">
             <a class="list-group-item" href="https://www.facebook.com/GobiernoJalisco/"><i class="fa fa-address-book" aria-hidden="true"></i> Gobierno de Jalisco</a>
             <a class="list-group-item" href="https://www.facebook.com/GuadalajaraGob/"><i class="fa fa-address-book" aria-hidden="true"></i> Gobierno de Guadalajara</a>
@@ -58,6 +69,7 @@
       <a class="list-group-item" href="https://www.facebook.com/PCyBomGDL/"><i class="fa fa-address-book" aria-hidden="true"></i> Dirección de Protección Civil y Bomberos</a>
           </div>
           <br>
+          <center><a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center>
           <div id="fb-root"></div>
           <center><script>(function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -66,7 +78,9 @@
             js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
             fjs.parentNode.insertBefore(js, fjs);
           }(document, 'script', 'facebook-jssdk'));</script>
-          <div class="fb-share-button" data-href="https://rootdata0x.github.io/acopiogdl/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://rootdata0x.github.io/acopiogdl/&amp;src=sdkpreparse">Compartir Pagina</a></div></center>
+          <div class="fb-share-button" data-href="https://rootdata0x.github.io/acopiogdl/" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+            <a class="fb-xfbml-parse-ignore" target="_blank" href="https://rootdata0x.github.io/acopiogdl/&amp;src=sdkpreparse">Compartir Pagina</a></div></center>
+        </center>
             <hr>
             <center><h3> Brigada Topos </h3></center>
             <center><h5> Donaciones </h5></center>
@@ -106,24 +120,9 @@
         <!-- /.col-lg-3 -->
         <div class="col-lg-9">
           <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-            <h3> Centros de Acopio Disponibles </h3>
-            <script language="JavaScript" type="text/JavaScript" class="fecha">
-            var LaFecha=new Date();
-            var Mes=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
-            var diasem=new Array('domingo','lunes','martes','miercoles','jueves','viernes','sabado');
-            var diasemana=LaFecha.getDay();
-            var FechaCompleta="";
-            var NumeroDeMes="";
-            var hora = LaFecha.getHours() 
-            var minuto = LaFecha.getMinutes() 
-            var segundo = LaFecha.getSeconds() 
-            NumeroDeMes=LaFecha.getMonth();
-            FechaCompleta=" <strong>Ingresaste el dia:</strong> " +LaFecha.getDate()+" de "+Mes[NumeroDeMes]+" de "+LaFecha.getFullYear()+" <strong> a las </strong> "+hora+":"+minuto+":"+segundo;
-            document.write (FechaCompleta);
-            </script>
-          <iframe src="https://www.google.com/maps/d/embed?mid=1jdT7QnE5vAlz7uUqoDUZAdQvFcs" width="820" height="480"></iframe>
+            <center><h3> Centros de acopio en Guadalajara y Zapopan</h3></center>
           </div>
-          <div class="alert alert-info">
+          <div class="alert alert-warning">
             <strong>La información</strong> puede estar sujeta a cambios.
           </div>
           
@@ -540,6 +539,7 @@
                 </div>
               </div>
             </div>
+        </div>
 
           </div>
           <!-- /.row -->
