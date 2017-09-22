@@ -1,8 +1,8 @@
 # acopiogdl
-Repositorio con informacion referente a los centros de acopio en Guadalajara y Zapopan
+Repositorio con informacion referente a los centros de acopio en Guadalajara y Zapopan.
 
 # ¿Como se compone la pagina?
-La pagina esta hecha de una forma muy sencilla (HTML, CSS y JavaScript basico) para que todos puedan colaborar
+La pagina esta hecha de una forma muy sencilla (HTML, CSS y JavaScript basico) para que todos puedan colaborar y entender la estructura.
 
 
 # ¿Como ayudar? 
