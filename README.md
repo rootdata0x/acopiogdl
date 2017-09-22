@@ -6,6 +6,6 @@ La pagina esta hecha de una forma muy sencilla (HTML, CSS y JavaScript basico) p
 
 
 # ¿Como ayudar? 
-Para quien guste colaborar con la ubicacion de los centros de acopio en Guadalajara y Zapopan puede contactarme mediante mi twitter @rootdata0x o con el hashtag #AcopioGDL para agregarlos a la web!
+Para quien guste colaborar con la ubicacion de los centros de acopio en Guadalajara y Zapopan puede contactarme mediante mi twitter [@rootdata0x](https://twitter.com/rootdata0x)o con el hashtag #AcopioGDL para agregarlos a la web!
 
 
